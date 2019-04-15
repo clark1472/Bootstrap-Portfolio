@@ -1,15 +1,10 @@
 .navbar {
   background: white;
-  /*position: fixed;*/
   width: 100%;
   margin: 0;
   border-bottom: 2px solid grey;
   padding: 0;
   z-index: 99;
-}
-
-.bg-light{
-  background-color: white!important;
 }
 
 #myName {
@@ -57,11 +52,7 @@
   * {
     box-sizing: border-box;
   }
- 
-  #portLinks {
-    height:292;
-    width: 42;
-  }
+  
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -97,6 +88,8 @@ h3 {
   margin-top: 8px;
   font-size: 18px;
   box-sizing: border-box;
+  background-color: #4aaaa5;
+  color: white;
 }
 
 .main-section {
@@ -167,6 +160,7 @@ footer {
 }  
 
 .img-responsive{
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   max-width: 100%;
+  width: 100%;
 }
