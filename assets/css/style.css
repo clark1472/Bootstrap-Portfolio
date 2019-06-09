@@ -89,9 +89,9 @@ h1 {
 }
 
 h3 {
-  line-height: 15px;
-  margin-top: 8px;
-  font-size: 18px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 30px;
   box-sizing: border-box;
   background-color: #4aaaa5;
   color: white;
@@ -145,7 +145,7 @@ footer {
 
 }
 
-/* portfolio specifics*/
+/* ========== portfolio items ============*/
 .port {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,8 +155,8 @@ footer {
 .text-block {
   position: absolute;
   bottom: 40px;
-  right: 20px;
-  left: 20px;
+  right: 15px;
+  left: 15px;
   text-align: center;
   background-color: #4aaaa5;
   color: white;
@@ -169,7 +169,7 @@ footer {
   max-width: 100%;
   width: 100%;
 }
-
+/* ======= responsive html page ====== 
 @media only screen and (max-width: 641px) {
   #myName {
     width: 100%;
@@ -197,3 +197,4 @@ footer {
 a {
   color: white;
 }
+*/
