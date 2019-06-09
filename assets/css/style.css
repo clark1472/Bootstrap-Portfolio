@@ -1,10 +1,11 @@
+/* ================ Navbar header =========== */
 .navbar {
   background: white;
+  border-bottom: 2px solid grey;
   width: 100%;
   margin: 0;
-  border-bottom: 2px solid grey;
   padding: 0;
-  z-index: 99;
+  /* z-index: 99; */
 }
 
 #myName {
@@ -15,18 +16,11 @@
   height: 90px;
   font-weight: bold;
   text-align: center;
-  color: #ffffff;
+  color: white;
   line-height: 75px;
   background: #4aaaa5;
   margin: 0;
   
- }
-
- .container {
-   width: 100%;
-   max-width: 960px;
-   margin: 0 auto;
-   clear: both;
  }
  
   .nav {
@@ -36,6 +30,7 @@
    margin: 0;
    padding: 0;
    background: white;
+   color: grey;
  }
 
  .nav-link {
@@ -49,9 +44,19 @@
   border-left: 1px solid #efefef;
   }
 
+  /* Like this feature includes padding and border in total width & height NICE */
   * {
     box-sizing: border-box;
   }
+
+  /* =============== body of portfolio =============== */
+
+ .container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
   
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -105,7 +110,7 @@ h3 {
 .block {
  background-color: white;
  padding: 30px;
- margin-bottom: 30px;
+ /* margin-bottom: 30px; */
  max-width: 960px;
 }
 
