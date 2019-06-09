@@ -89,6 +89,7 @@ h1 {
 }
 
 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 30px;
   margin-top: 10px;
   font-size: 30px;
@@ -110,7 +111,6 @@ h3 {
 .block {
  background-color: white;
  padding: 30px;
- /* margin-bottom: 30px; */
  max-width: 960px;
 }
 
