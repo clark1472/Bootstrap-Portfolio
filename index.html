@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,36 +17,42 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light bg-white">
-    <div class="container">
+    <div class="navigation">
       <a class="navbar-brand" href="index.html" id="myName">Christine Clark</a>
+    </div>
+    <!--navigation -->
 
-      <div id="portLinks">
-        <ul class="navbar-nav navbar-right">
-          <a class="nav-item nav-link active" href="index.html">About</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-
-        </ul>  <!--navbar for about, contact and portfolio -->
-      </div>  <!--portLinks -->
-    </div>  <!--container -->
-  </nav>
+    <!-- navbar for about, portfolio and contact -->
+    <div class="collapse navbar-collapse flex-row-reverse">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" id="contact" href="contact.html">Contact</a>
+        </li>
+      </ul> <!--navbar for about, portfolio and contact -->
+    </div>  <!--collapse -->
+  </nav>  <!--nav bar box -->
 
   <!-- container-->
-  <main class="container">
-    <section class="row" id="whiteBox">
-      <article class="block">
-        <h1 class="block-header">About Me</h1>
-        <hr />  <!--this is the horizonal line in whitebox-->
+  <div class="container">
+      <h1 class="block-header">About Me</h1>
+
+          <!--this is the horizonal line in whitebox-->
+          <hr />
 
         <p><img src="assets/images/christen school.jpg" alt="" id="about-image" />
           <h2>Front-End Web Developer</h2>
           Detailed oriented person that thrives on handling many tasks. Let’s keep all the balls moving to completion. I am a cooperative team player who is always focused on the goal. I am flexible and easy going, most things don’t rattle me. I like to think outside the box. I will find a different way to use a tool than it was made for. It confuses some people, excites others. I like making charts, lists and word documents to see a progression of getting things done. I am creative with a touch of independence. Give me a chance to be inventive and I will surprise you.
         </p>
         <br>
-      </article>
-    </section>
-  </main>
+  </div>
 
 
   <!--footer-->

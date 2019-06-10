@@ -1,4 +1,4 @@
-/* ================ Navbar header =========== */
+/* ================ Navbar header all three pages =========== */
 .navbar {
   background: white;
   border-bottom: 2px solid grey;
@@ -8,6 +8,11 @@
   /* z-index: 99; */
 }
 
+.navbar-nav {
+  
+  margin-bottom: 8px;
+ 
+}
 #myName {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
@@ -19,47 +24,38 @@
   color: white;
   line-height: 75px;
   background: #4aaaa5;
-  margin: 0;
+  margin-left: 50px;
   
  }
  
-  .nav {
-   float: right;
-   margin-top: 25px;
+ .nav-link {
    text-align: center;
-   margin: 0;
+   margin: 25px 0;
    padding: 0;
    background: white;
    color: grey;
+   border-left: 1px solid grey;
+   display: inline-block;
+   font-size: 20px;
  }
 
- .nav-link {
-  display: inline-block;
-  font-size: 20px;
-  padding: 0;
-  color: white;
-  margin-left: 15px;
-  margin-top: 15px;
-  line-height: 18px;
-  border-left: 1px solid #efefef;
-  }
+#contact {
+  margin-right: 20px;
+}
 
-  /* Like this feature includes padding and border in total width & height NICE */
+ /* Like this feature includes padding and border in total width & height NICE */
   * {
     box-sizing: border-box;
   }
-
-  .navbar {
-    background: white;
-    
-    }
 
   /* =============== body of portfolio =============== */
 
  .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: 20px;
+  background-color: white;
   clear: both;
 }
   
@@ -108,10 +104,20 @@ h3 {
   border: 1px solid #dddddd;
 }
 
+#whiteBoxContact {
+  float: left;
+  width: 65%;
+  padding: 30px;
+  margin: 30px 0 50px; 
+  /* because I keep forgetting: margin top, right and left, bottom */
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
 .block {
  background-color: white;
  padding: 30px;
- max-width: 960px;
+ /* max-width: 100%; */
+ max-width: 980px;
  }
 
 .block-header {
@@ -119,6 +125,7 @@ h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
+
 p {
   clear: both;
   word-wrap: normal;
@@ -169,6 +176,12 @@ footer {
   max-width: 100%;
   width: 100%;
 }
+
+ /* contact page  */
+article {
+  max-width: 100%;
+}
+
 /* ======= responsive html page ====== 
 @media only screen and (max-width: 641px) {
   #myName {

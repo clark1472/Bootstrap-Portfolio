@@ -17,79 +17,83 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light bg-white">
-    <div class="container">
+    <div class="navigation">
       <a class="navbar-brand" href="index.html" id="myName">Christine Clark</a>
+    </div>
+    <!--navigation -->
 
-      <div id="portLinks">
-        <ul class="navbar-nav navbar-right">
-          <a class="nav-item nav-link" href="index.html">About</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-          <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-        </ul>  <!--navbar for about, contact and portfolio -->
-      </div>  <!--portLinks -->
-    </div>  <!--container -->
-  </nav>
+    <!-- navbar for about, portfolio and contact -->
+    <div class="collapse navbar-collapse flex-row-reverse">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" id="contact" href="contact.html">Contact</a>
+        </li>
+      </ul> <!--navbar for about, portfolio and contact -->
+    </div>  <!--collapse -->
+  </nav>  <!--nav bar box -->
 
   <!--container-->
   <main class="container">
-    <section class="row" id="whiteBox">
-      <div class="col-lg-10">
-        <article class="block">
-          <h1 class="port">Portfolio</h1>
-          <hr /><!--horizonal line in whitebox-->
+    <h1 class="port">Portfolio</h1>
 
-          <div class="row">
+    <!--horizonal line in whitebox-->
+    <hr />
 
-            <div class="col-sm-12 col-md-6"> 
-              <img src="assets/images/technics-q-c-640-480-1.jpg" class="img-responsive" 
-                alt="Word Guess">
-              <div class="text-block">
-              <h3>Word Guess</h3>
-            </div>
-          </div>
+    <div class="row">
 
-            <div class="col-sm-12 col-md-6">
-              <img src="assets/images/technics-q-c-640-480-2.jpg" class="img-responsive" 
-                alt="RPG Game">
-              <div class="text-block">
-                <h3>RPG Game</h3>
-              </div>
-            </div>
+      <div class="col-sm-12 col-md-6">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" class="img-responsive" alt="Word Guess">
+        <div class="text-block">
+          <h3>Word Guess</h3>
+        </div>
+      </div>
 
-            <div class="col-sm-12 col-md-6">
-              <img src="assets/images/technics-q-c-640-480-5.jpg" class="img-responsive" 
-                alt="Trivia Game">
-              <div class="text-block">
-                <h3>Trivia Game</h3>
-              </div>
-            </div>
+      <div class="col-sm-12 col-md-6">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" class="img-responsive" alt="RPG Game">
+        <div class="text-block">
+          <h3>RPG Game</h3>
+        </div>
+      </div>
 
-            <div class="col-sm-12 col-md-6">
-              <img src="assets/images/technics-q-c-640-480-7.jpg" class="img-responsive" 
-                alt="Rutgers Info Widget">
-              <div class="text-block">
-                <h3>Rutgers Info Widget</h3>
-              </div>
-            </div>
+      <div class="col-sm-12 col-md-6">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" class="img-responsive" alt="Trivia Game">
+        <div class="text-block">
+          <h3>Trivia Game</h3>
+        </div>
+      </div>
 
-            <div class="col-sm-12 col-md-6">
-              <img src="assets/images/technics-q-c-640-480-9.jpg" class="img-responsive" 
-                alt="Rock Paper Scissors">
-              <div class="text-block">
-                <h3>Rock Paper Scissors</h3>
-              </div>
-            </div>
-          </div><!--row-->
-        </article>
-      </div><br><br><!--container---->
+      <div class="col-sm-12 col-md-6">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" class="img-responsive" alt="Rutgers Info Widget">
+        <div class="text-block">
+          <h3>Rutgers Info Widget</h3>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" class="img-responsive" alt="Rock Paper Scissors">
+        <div class="text-block">
+          <h3>Rock Paper Scissors</h3>
+        </div>
+      </div>
+    </div>
+    <!--row-->
+    </article>
+    <!--   </div><br><br>container---->
     </section>
   </main>
   <footer class="container-fluid text-center">
     &copy Copyright 2019
   </footer>
 
-<!-- Optional JavaScript -->
+  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -99,7 +103,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>  
+    crossorigin="anonymous"></script>
 
 </body>
 
