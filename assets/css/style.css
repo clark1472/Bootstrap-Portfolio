@@ -184,24 +184,35 @@ article {
   max-width: 100%;
 }
 
-/* ======= responsive html page ====== 
-@media only screen and (max-width: 641px) {
-  #myName {
+/* ======= breakpoint html page ======  */
+
+/* this it the name in navbar only */
+@media only screen and (max-width: 630px) {
+  a #myName .navbar-brand {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 90px;
-    max-width: 645px;
+    max-width: 629px;
   }
 }
 
-@media only screen and (max-width: 641px) {
-  .navbar-nav {
+/* this is the whole navbar */
+@media only screen and (max-width:630px) {
+ nav .navbar {
+  word-wrap: break-word;
+ } 
+}
+
+/* this is the 3 tabs on right of page */
+@media only screen and (max-width: 630px) {
+  div.collapse .navbar-collapse {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 40px;
-    max-width: 645px;
+    max-width: 629px;
+    border-collapse: separate;
     display: inline-block;
     clear: both;
     text-align: center;
@@ -209,7 +220,18 @@ article {
   }
 }
 
-a {
-  color: white;
+@media only screen and (max-width: 630px) {
+  .navbar-nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    max-width: 630px;
+
+    display: inline-block;
+    clear: both;
+    text-align: center;
+    
+  }
 }
-*/
+
