@@ -8,11 +8,6 @@
   /* z-index: 99; */
 }
 
-.navbar-nav {
-  
-  margin-bottom: 8px;
- 
-}
 #myName {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
@@ -48,13 +43,52 @@
     box-sizing: border-box;
   }
 
-  /* =============== body of portfolio =============== */
+  /* ============== About Me specifics =============== */
 
- .container {
+  /* for about me photo */
+#about-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 10px 0;
+  clear: both;
+}  
+
+p {
+  float: left;
+  clear: both;
+  word-wrap: normal;
+  display: block;
+}
+
+#aboutContainer {
   width: 100%;
   max-width: 960px;
-  /* margin: 0 auto; */
-  margin: 20px;
+  margin: 30px 0 300px 30px;
+  padding: 30px;
+  background-color: white;
+  clear: both;
+}
+
+  /* ============= portfolio  specifics =============== */
+
+ #portContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 30px 0 30px 30px;
+    padding: 30px;
+    background-color: white;
+    clear: both;
+  }
+
+
+  /* ============= contact specifics ================== */
+
+ #contactContainer {
+  width: 100%;
+  max-width: 960px;
+  margin: 30px 0 180px 50px;
+  padding: 30px;
   background-color: white;
   clear: both;
 }
@@ -64,19 +98,14 @@ body {
   font-size: 18px;
   line-height: 34px;
   background: url("../images/concrete_seamless.png");
+  /* margin-bottom: 50px; */
 }
 
 hr {
   border-top-width: 3px;
 }
 
-#about-image {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 0 20px 10px 0;
-  clear: both;
-}  
+
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -94,29 +123,16 @@ h3 {
   color: white;
 }
 
-#whiteBox {
-  float: left;
+.row {
   width: 100%;
   padding: 30px;
-  margin: 30px 0 50px; 
-  /* because I keep forgetting: margin top, right and left, bottom */
+  margin: 30px 0;   
   background: #ffffff;
-  border: 1px solid #dddddd;
 }
 
-#whiteBoxContact {
-  float: left;
-  width: 65%;
-  padding: 30px;
-  margin: 30px 0 50px; 
-  /* because I keep forgetting: margin top, right and left, bottom */
-  background: #ffffff;
-  border: 1px solid #dddddd;
-}
 .block {
  background-color: white;
  padding: 30px;
- /* max-width: 100%; */
  max-width: 980px;
  }
 
@@ -124,17 +140,12 @@ h3 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  padding-top: 20px;
+  /* padding-left: 30px; */
+  
 }
 
-p {
-  clear: both;
-  word-wrap: normal;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
- }
+
 
 
 .btn-info {
@@ -157,6 +168,8 @@ footer {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  padding-top: 20px;
+  /* padding-left:30px; */
 }
 
 .text-block {
