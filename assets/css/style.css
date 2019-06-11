@@ -63,36 +63,29 @@ p {
   display: block;
 }
 
-#aboutContainer {
-  width: 100%;
+.container {
+  width: 90%;
   max-width: 960px;
-  margin: 30px 0 300px 50px;
   padding: 30px;
   background-color: white;
   clear: both;
 }
 
+#aboutContainer {
+  margin: 30px 0 300px 50px;
+}
+
   /* ============= portfolio  specifics =============== */
 
  #portContainer {
-    width: 100%;
-    max-width: 960px;
     margin: 30px 0 30px 50px;
-    padding: 30px;
-    background-color: white;
-    clear: both;
-  }
+}
 
 
   /* ============= contact specifics ================== */
 
  #contactContainer {
-  width: 100%;
-  max-width: 960px;
   margin: 30px 0 180px 50px;
-  padding: 30px;
-  background-color: white;
-  clear: both;
 }
   
 body {
