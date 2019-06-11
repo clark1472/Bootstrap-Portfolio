@@ -122,7 +122,13 @@ h3 {
   color: white;
 }
 
-.row {
+/* need extra padding because form takes away */
+form {
+  padding: 15px;
+}
+
+/* need to change row to something else compare portfolio */
+.row2 {
   width: 100%;
   padding: 30px;
   margin: 30px 0;   
@@ -182,13 +188,9 @@ footer {
   width: 100%;
 }
 
- /* contact page  */
-article {
-  max-width: 100%;
-}
-/* ======= breakpoint page ======  */
+/* ======= breakpoint page ==========  */
 
-/* ==== this it the navbar ====== */
+/* ==== this is the navbar ====== */
 @media only screen and (max-width: 630px) {
   navbar {
     width: 100%;
@@ -203,7 +205,7 @@ article {
   }
 }
 
-/* ==== this it the body ====== */
+/* ==== this is the body ====== */
 
 @media only screen and (max-width: 630px) {
   .navbar-nav {
