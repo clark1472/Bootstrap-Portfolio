@@ -1,6 +1,5 @@
-/* ================ Navbar header all three pages =========== */
+/* ======== Navbar header all three pages ======== */
 .navbar {
-  background: white;
   border-bottom: 2px solid grey;
   width: 100%;
   margin: 0;
@@ -22,15 +21,19 @@
   
  }
  
- .nav-link {
-   text-align: center;
-   margin: 25px 0;
-   padding: 0;
+.nav-item {
+   margin: 25px 25px 25px 0;
+   padding-left: 25px;
    background: white;
    color: grey;
    border-left: 1px solid grey;
    display: inline-block;
    font-size: 20px;
+ }
+
+ .nav-link { 
+   padding: 0;
+   margin: 0;
  }
 
 #contact {
@@ -183,42 +186,24 @@ footer {
 article {
   max-width: 100%;
 }
+/* ======= breakpoint page ======  */
 
-/* ======= breakpoint html page ======  */
-
-/* this it the name in navbar only */
+/* ==== this it the navbar ====== */
 @media only screen and (max-width: 630px) {
-  a #myName .navbar-brand {
+  navbar {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 90px;
     max-width: 629px;
-  }
-}
-
-/* this is the whole navbar */
-@media only screen and (max-width:630px) {
- nav .navbar {
-  word-wrap: break-word;
- } 
-}
-
-/* this is the 3 tabs on right of page */
-@media only screen and (max-width: 630px) {
-  div.collapse .navbar-collapse {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 40px;
-    max-width: 629px;
     border-collapse: separate;
     display: inline-block;
     clear: both;
     text-align: center;
-    
   }
 }
+
+/* ==== this it the body ====== */
 
 @media only screen and (max-width: 630px) {
   .navbar-nav {
