@@ -17,13 +17,13 @@
   color: white;
   line-height: 75px;
   background: #4aaaa5;
-  margin-left: 50px;
+  margin-left: 20px;
   
  }
  
 .nav-item {
-   margin: 25px 25px 25px 0;
-   padding-left: 25px;
+   margin: 10px 10px 10px 0;
+   padding-left: 10px;
    background: white;
    color: grey;
    border-left: 1px solid grey;
@@ -32,12 +32,13 @@
  }
 
  .nav-link { 
+   color: grey;
    padding: 0;
    margin: 0;
  }
 
 #contact {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
  /* Like this feature includes padding and border in total width & height NICE */
@@ -52,11 +53,18 @@
   float: left;
   width: 200px;
   height: 200px;
-  margin: 0 20px 10px 0;
+  margin: 0;
+  /* margin: 0 20px 10px 0; */
   clear: both;
 }  
 
+#myPhoto {
+padding: 0 -15px;
+}
+
 p {
+  /* padding-left: 20px; */
+  margin: 0;
   float: left;
   clear: both;
   word-wrap: normal;
@@ -72,20 +80,20 @@ p {
 }
 
 #aboutContainer {
-  margin: 30px 0 300px 50px;
+  margin: 30px 0 300px 20px;
 }
 
   /* ============= portfolio  specifics =============== */
 
  #portContainer {
-    margin: 30px 0 30px 50px;
+    margin: 30px 0 30px 20px;
 }
 
 
   /* ============= contact specifics ================== */
 
  #contactContainer {
-  margin: 30px 0 180px 50px;
+  margin: 30px 0 180px 20px;
 }
   
 body {
@@ -120,8 +128,8 @@ form {
   padding: 15px;
 }
 
-/* need to change row to something else compare portfolio */
-.row2 {
+/* portfolio rows */
+.row .two .three .four{
   width: 100%;
   padding: 30px;
   margin: 30px 0;   
@@ -138,7 +146,6 @@ form {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  padding-top: 20px;
 }
 
 .btn-info {
@@ -200,18 +207,17 @@ footer {
 
 /* ==== this is the body ====== */
 
-@media only screen and (max-width: 630px) {
-  .navbar-nav {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 40px;
-    max-width: 630px;
-
-    display: inline-block;
-    clear: both;
-    text-align: center;
-    
+@media only screen and (max-width: 639px) {
+  #about-image {
+    width: 500px;
+    height: 500px;
   }
 }
+
+@media only screen and (min-width: 767px),  (max-width: 767px) {
+  #about-image {
+    width: 300px;
+    height: 300px;
+  }
+} 
 
