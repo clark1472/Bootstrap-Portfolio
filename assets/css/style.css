@@ -79,20 +79,20 @@ p {
   clear: both;
 }
 
-#aboutContainer {
+.aboutContainer {
   margin: 30px 0 300px 20px;
 }
 
   /* ============= portfolio  specifics =============== */
 
- #portContainer {
+ .portContainer {
     margin: 30px 0 30px 20px;
 }
 
 
   /* ============= contact specifics ================== */
 
- #contactContainer {
+ .contactContainer {
   margin: 30px 0 180px 20px;
 }
   
@@ -208,6 +208,8 @@ footer {
 
 @media only screen and (min-width: 639px) {
   #about-image .img-responsive {
+    /* #about-image { */
+
     width: 100%;
     height: 100%;
   }
@@ -215,6 +217,8 @@ footer {
 /* ,  (max-width: 767px) */
 @media only screen and (min-width: 767px) {
   #about-image .img-responsive {
+    /* #about-image { */
+
     width: 100%;
     height: 100%;
   }
@@ -222,6 +226,8 @@ footer {
 
 @media only screen and (min-width: 979px) {
   #about-image .img-responsive {
+    /* #about-image { */
+
     width: 100%;
     height: 100%;
   }
