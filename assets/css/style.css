@@ -195,10 +195,7 @@ footer {
     float: left;
     width: 767px;
     }
-  /*
-  #threeLinks {
-    text-align: right;
-  } */
+  
    div {
      background-color: white;
    }
@@ -213,13 +210,39 @@ footer {
     text-align: center;
     background: #4aaaa5;
   }
+
   #threeLinks {
-    display: inline-block;
-    text-align: center;
+    /* align-self: end !important; did not work */
+    /* align-items: center; did not work */
+    /* flex-direction: center; did not work*/
+    /* flex-direction: column; wrong way up and down*/
+    /* display: flex; */
+    /* display: inline-flex; did not work */
+    /* display-inline: flex; does not exists */
+    /* flex-row: center; does not exists */
+    /* justify-content: center;  */
+    /* -ms-content-zoom-limit: center; gave me as answer does not work  */
+    /* text-align: center; did not work */
+    /*works*/
+    background-color: red;
+
+  /* .nav-link { */
+    /* align-self: end !important; did not work */
+    /* display: flex; */
+    /* display: inline-flex; did not work */
+    /* display-inline: flex; does not exists */
+    /* flex-row: center; does not exists */
+    /* justify-content: center;  */
+    /* -ms-content-zoom-limit: center; gave me as answer does not work  */
+    /* text-align: center; did not work */
+       
+    /*works*/
+    /* background-color: red; */
+
   }
 }
 
-/* ==== this is the body ====== */
+/* ==== this is the body ====== 
 
 @media only screen and (min-width: 576px) {
   #about-image .img-responsive {
@@ -246,4 +269,4 @@ footer {
     height: 70%;
   }
 } 
-
+*/
