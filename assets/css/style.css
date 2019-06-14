@@ -21,23 +21,23 @@
   
  }
  
-.nav-item {
+.nav-link {
    margin: 10px 10px 10px 0;
    padding-left: 10px;
    background: white;
    color: grey;
    border-left: 1px solid grey;
-   display: inline-block;
    font-size: 20px;
  }
 
- .nav-link { 
+ .nav-item { 
    color: grey;
-   padding: 0;
    margin: 0;
+   padding: 0;
+   display: inline-block;
  }
 
-#contact {
+.contact {
   margin-right: 10px;
 }
 
@@ -51,19 +51,15 @@
   /* for about me photo */
 #about-image {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 100%;
   margin: 0;
   /* margin: 0 20px 10px 0; */
   clear: both;
 }  
 
-#myPhoto {
-padding: 0 -15px;
-}
-
 p {
-  /* padding-left: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0;
   float: left;
   clear: both;
@@ -187,6 +183,9 @@ footer {
   width: 100%;
 }
 
+
+
+
 /* ======= breakpoint page ==========  */
 
 /* ==== this is the navbar ====== */
@@ -208,7 +207,7 @@ footer {
 
 @media only screen and (min-width: 639px) {
   #about-image .img-responsive {
-    /* #about-image { */
+    
 
     width: 100%;
     height: 100%;
@@ -217,7 +216,7 @@ footer {
 /* ,  (max-width: 767px) */
 @media only screen and (min-width: 767px) {
   #about-image .img-responsive {
-    /* #about-image { */
+    
 
     width: 100%;
     height: 100%;
@@ -226,10 +225,10 @@ footer {
 
 @media only screen and (min-width: 979px) {
   #about-image .img-responsive {
-    /* #about-image { */
+   
 
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
 } 
 
