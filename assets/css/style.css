@@ -17,8 +17,7 @@
   color: white;
   line-height: 75px;
   background: #4aaaa5;
-  /* margin-left: 20px; */
-  margin: 0;
+  margin: 0 0 0 20px;
   
  }
  
@@ -193,10 +192,10 @@ footer {
 /* ======= breakpoint page ==========  */
 
 /* ==== this is the navbar ====== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #myName {
     float: left;
-    width: 768px;
+    width: 767px;
    }
    div {
      background-color: white;
