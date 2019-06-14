@@ -18,14 +18,16 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-light bg-white">
-      <div>
+  <nav class="navbar navbar-light bg-white flex-wrap">
+      <div class="d-flex justify-content-start col-sm-12 col-md-6">
         <a class="navbar-brand" id="myName">Christine Clark</a>
       </div>  <!--navbar my name -->
   
+      
+
       <!-- navbar for about, portfolio and contact -->
-      <div>
-        <ul class="nav justify-content-end">
+      <div class="d-flex col-sm-12 col-md-6 justifiy-content-end">
+        <ul class="nav" id="threeLinks">
           <li class="nav-item">
             <a class="nav-link active" href="index.html">About</a>
           </li>
@@ -43,7 +45,7 @@
   <!-- ============= container ==============================-->
 
   <div class="container aboutContainer" >
-    <div class="d-flex flex-row flex-wrap">
+    <div class="d-flex flex-row">
       <div class="col">
           <h1 class="block-header">About Me</h1>
       </div>  <!--this is column-->
@@ -53,29 +55,23 @@
 
     <!-- photo in top left paragraph around image -->
     <div class="d-flex flex-row flex-wrap">
-      <div class="col-sm-12 col-md-6 col-lg-2">
-      
+      <div class="col-sm-12 col-md-6 col-lg-4">
         <img src="assets/images/christen school.jpg" alt="" id="about-image"/>
       </div>  <!--  this is myPhoto-->
        
     <!-- paragraph -->
-      <div class="col-sm-12 col-md-6 col-lg-10" id="paragraph">
-       
+      <div class="col-sm-12 col-md-6 col-lg-8" id="paragraph">
         <p>
-        Detailed oriented person that thrives on handling many tasks. Let’s keep all the balls moving to completion. I am a cooperative team player who is always focused on the goal. I am flexible and easy going, 
+        Detailed oriented person that thrives on handling many tasks. Let’s keep all the balls moving to completion. I am a cooperative team player who is always focused on the goal. I am flexible and easy going, most things don’t rattle me. I like to think outside the box. I will find a different way to use a tool than it was made for.
         </p>
       </div>  <!--paragraph-->
-    </div>  <!-- row -->
 
-    <div class="row static">
-        <!-- <div class="col-12"> -->
-        <div class="col">
+      <div class="col-12">  <!-- row -->
           <p>
-            most things don’t rattle me. I like to think outside the box. I will find a different way to use a tool than it was made for.It confuses some people, excites others. I like making charts, lists and word documents to see a progression of getting things done. I am creative with a touch of independence. Give me a chance to be inventive and I will surprise you.
+             It confuses some people, excites others. I like making charts, lists and word documents to see a progression of getting things done. I am creative with a touch of independence. Give me a chance to be inventive and I will surprise you.
           </p>
-        </div>
-    </div>  
-      <br>
+      </div>  <!-- column -->
+    </div>  <!-- row -->
   </div> <!--container-->
 
 
