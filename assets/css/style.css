@@ -31,11 +31,12 @@
  }
 
  .nav-item { 
-   color: grey;
    margin: 0;
    padding: 0;
    display: inline-block;
+   text-align: right;
  }
+
 
 #contact {
   margin-right: 10px;
@@ -54,15 +55,12 @@
   float: left;
   width: 100%;
   margin: 0;
-  /* margin: 0 20px 10px 0; */
   clear: both;
 }  
 
 
 p {
   padding: 0;
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
   margin: 0;
   float: left;
   clear: both;
@@ -196,7 +194,11 @@ footer {
   #myName {
     float: left;
     width: 767px;
-   }
+    }
+  /*
+  #threeLinks {
+    text-align: right;
+  } */
    div {
      background-color: white;
    }
@@ -211,10 +213,10 @@ footer {
     text-align: center;
     background: #4aaaa5;
   }
-/*   
-  div {
-    padding: 0;
-  } */
+  #threeLinks {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 /* ==== this is the body ====== */
@@ -224,20 +226,13 @@ footer {
     width: 100%;
     height: 100%;
   }
-  #myName {
-  background-color: #4aaaa5;
-  text-align: center;
-  }
-  #threeLinks {
-    text-align: center;
-  }
-  
-}
-/* ,  (max-width: 767px) */
+ }
+
 @media only screen and (min-width: 768px) {
   #about-image .img-responsive {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+    
   }
 } 
 
@@ -245,6 +240,10 @@ footer {
   #about-image .img-responsive {
     width: 50%;
     height: 50%;
+  }
+  .portContainer {
+    width: 70%;
+    height: 70%;
   }
 } 
 
