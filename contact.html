@@ -17,39 +17,34 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-light bg-white">
-        <div>
-            <a class="navbar-brand" href="index.html" id="myName">Christine Clark</a>
-        </div>  <!--navbar my name -->
-        
-        <!-- navbar for about, portfolio and contact -->
-        <!-- <div class="d-flex mx-sm-3">  does not work -->
-        <!-- <div class="d-flex flex-sm-row"> does not work -->
-        <div class="d-flex">
-          <ul class="nav" id="threeLinks">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" id="contact" href="contact.html">Contact</a>
-            </li>
-          </ul> 
-        </div>  <!--navbar for about, portfolio and contact -->
-      </nav>  <!--nav bar box -->
+    <!--============= Navbar header ==============-->
+    <header>
+        <div class="navbar navbar-light bg-white">
+            <!-- <div id="navigation"> -->
+            <a href="index.html" id="myName">Christine Clark</a>
+            <!--  </div>   my name -->
+    
+            <!-- navbar for about, portfolio and contact -->
+            <div>
+                <nav id="threeLinks">
+                    <a class="C" href="index.html">About</a>
+                    <a class="C" href="portfolio.html">Portfolio</a>
+                    <a class="C" href="contact.html">Contact</a>
+                </nav>
+            </div>  <!--navbar for about, portfolio and contact -->
+    
+        </div>  <!--nav bar box -->
+    </header>
 
 <!-- ============= container ==============================-->
+
     <div class="container contactContainer">
+       
         <div class="d-flex flex-row">
-            <div class="col">
-                <h1 class="block-header">Contact</h1>
-            </div>  <!--this is column-->
+            <h1 class="block-header">Contact</h1>
         </div>  <!--this is row-->
 
-    <hr />  <!--this is the horizonal line-->
+    <hr />  <!-- horizonal line in whitebox -->
 
         <form>
             
@@ -75,9 +70,21 @@
         <br>
     </div>  <!-- container -->
 
-    <!--footer-->
+     <!--============ sidebar icons =============-->
+     <section class="sidebar">
+            <div id="connection">
+              <h2>Connect with Me</h2>
+      
+              <img src="assets/images/iconfinder_github_square_black_107109.png" class="icons" id="cat"alt="GitHub">
+              <img src="assets/images/iconfinder_linkedin_square_color_107091.png" class="icons" id="link"alt="LinkedIn">
+              <img src="assets/images/iconfinder_stackoverflow_273179.png" class="icons" alt="Stack Overflow">
+            
+            </div>  <!--connection-->
+          </section>  <!--sidebar-->
+
+   <!--========== footer ============================-->
     <footer class="footer-fluid text-center">
-        &copy Copyright 2019
+        &copy Copyright 2019 Christen Clark
     </footer>
 
     <!-- Optional JavaScript -->

@@ -2,7 +2,7 @@
 .navbar {
   border-bottom: 2px solid grey;
   width: 100%;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
 
@@ -15,26 +15,24 @@
   font-weight: bold;
   text-align: center;
   color: white;
-  line-height: 75px;
+  line-height: 80px;
   background: #4aaaa5;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 50px;
   
  }
  
-.nav-link {
-   margin: 10px 10px 10px 0;
-   padding-left: 10px;
-   background: white;
-   color: grey;
-   border-left: 1px solid grey;
-   font-size: 20px;
+#threeLinks {
+  border-right: 1px solid grey;
+  font-size: 20px;
  }
 
- .nav-item { 
-   margin: 0;
-   padding: 0;
-   display: inline-block;
-   text-align: right;
+ .C { 
+  background: white;
+  color: grey;
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
+  border-left: 1px solid grey;
  }
 
 
@@ -77,8 +75,13 @@ p {
 }
 
 .aboutContainer {
-  margin: 30px 0 300px 20px;
+  margin: 30px 0 300px 50px;
 }
+
+/* ====== sidebar icons ======= does not work
+#cat #link {
+  padding: 50px;
+}  */
 
   /* ============= portfolio  specifics =============== */
 
@@ -187,13 +190,15 @@ footer {
 
 
 
-/* ======= breakpoint page ==========  */
+/* ======= breakpoint page ==============================  */
 
-/* ==== this is the navbar ====== */
-@media screen and (max-width: 767px) {
+/* ==== this is the navbar ====== 
+@media screen and (min-width: 768px) {
   #myName {
     float: left;
-    width: 767px;
+    width: 300px; 
+    width: 768px;
+    margin: 0 0 0 20px;
     }
   
    div {
@@ -201,72 +206,64 @@ footer {
    }
   }
 
-@media only screen and (max-width: 576px) {
+   @media only screen and (max-width: 576px) { 
+  @media only screen and (min-width: 600px) {
   #myName {
-    width: 576px;
+    width: 600px;
     margin: 0;
-    max-width: 576px;
     clear: both;
     text-align: center;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
   }
 
   #threeLinks {
-    /* align-self: end !important; did not work */
-    /* align-items: center; did not work */
-    /* flex-direction: center; did not work*/
-    /* flex-direction: column; wrong way up and down*/
-    /* display: flex; */
-    /* display: inline-flex; did not work */
-    /* display-inline: flex; does not exists */
-    /* flex-row: center; does not exists */
-    /* justify-content: center;  */
-    /* -ms-content-zoom-limit: center; gave me as answer does not work  */
-    /* text-align: center; did not work */
-    /*works*/
+    margin-left:140px;   
     background-color: red;
-
-  /* .nav-link { */
-    /* align-self: end !important; did not work */
-    /* display: flex; */
-    /* display: inline-flex; did not work */
-    /* display-inline: flex; does not exists */
-    /* flex-row: center; does not exists */
-    /* justify-content: center;  */
-    /* -ms-content-zoom-limit: center; gave me as answer does not work  */
-    /* text-align: center; did not work */
-       
-    /*works*/
-    /* background-color: red; */
-
   }
-}
+}  */
 
-/* ==== this is the body ====== 
+/* ======= this is the body ==========  */
 
-@media only screen and (min-width: 576px) {
-  #about-image .img-responsive {
-    width: 100%;
-    height: 100%;
-  }
- }
-
-@media only screen and (min-width: 768px) {
-  #about-image .img-responsive {
-    width: 50%;
-    height: 50%;
-    
-  }
-} 
-
-@media only screen and (min-width: 992px) {
-  #about-image .img-responsive {
-    width: 50%;
-    height: 50%;
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .img-responsive {
+    width: 95%;
+    height: 95%;
+    padding-bottom: 30px;
   }
   .portContainer {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+ }
+  }  */
+
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-responsive {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    
   }
-} 
-*/
+  .portContainer {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+ }  */
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) {  
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  }
+.portContainer {
+  width: 70%;
+  height: 70%;
+  background-color: yellow;
+  }
+}   */
+
+
+
