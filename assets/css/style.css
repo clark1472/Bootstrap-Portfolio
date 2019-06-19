@@ -13,8 +13,7 @@ body {
 } 
 
 .container {
-  /* example states width: 100%, I like 90% */
-  width: 90%;
+  width: 100%;
   max-width: 960px;
   /* padding: 30px; I had this may need it.*/
   background-color: white;
@@ -72,18 +71,26 @@ body {
   padding-right: 15px;
 }
 
-
-
   /* ============== About Me specifics =============== */
 
   /* for about me photo */
 #about-image {
   float: left;
-  width: 100%;
-  margin: 0;
+  width: 200px;
+  height: auto;
+  margin-right: 25px;
   clear: both;
 }  
 
+#aboutContainer  {
+  margin: 130px 0 40px 50px;
+  padding: 30px;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
 
 p {
   padding: 0;
@@ -91,49 +98,88 @@ p {
   float: left;
   clear: both;
   word-wrap: normal;
-  display: block;
+  /* display: inline; */
 }
 
+/* ===== sidebar ====== */
+.sidebar {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 245px;
+  float: left; 
+  clear: left;
+  
+  display: inline-block;
+ 
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  line-height: 22px;
+ }
+ .clearfix {
+  overflow: auto;
+}
 
-/*  If I do not need aboutContainer, portContainer and contactContainer remove id's from 3 html pages
-.aboutContainer {
-  margin: 30px 0 300px 50px;
-} */
+h3, h2 {
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: 15px;
+  line-height: 22px;
+  font-size: 22px;
+}
 
+img {
+  width: 62px;
+  height: 62px;
+  display: inline-block;
+}
 
+#connection {
+  text-align: center;
+}
+
+.icon #stack {
+  margin-right: 0;
+}
   /* ============= portfolio  specifics =============== */
-/* 
- .portContainer {
-    margin: 30px 0 30px 20px;
-} */
 
+ #portContainer {
+    margin: 130px 0 40px 50px;
+    padding: 30px;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
 
   /* ============= contact specifics ================== */
 
- /* .contactContainer {
-  margin: 30px 0 180px 20px;
-} */
-  
-
+ #contactContainer {
+  margin: 130px 0 40px 50px;
+  padding: 30px;
+  float: left;
+}
 
 hr {
   border-top-width: 3px;
 }
 
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  color: white;
+p:nth-child(2){
+  margin-bottom: 20px;
 }
 
-h3 {
+
+h1, h2, h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 30px;
-  margin-top: 10px;
+  font-weight: bold;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+}
+
+h1 {
   font-size: 30px;
-  box-sizing: border-box;
-  background-color: #4aaaa5;
-  color: white;
+  line-height: 40px;
+
 }
 
 /* need extra padding because form takes away */
